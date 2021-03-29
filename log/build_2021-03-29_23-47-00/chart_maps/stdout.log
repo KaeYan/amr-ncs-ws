@@ -1,0 +1,176 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rmf-tester/ncs_ws/build/chart_maps
+[35m[1mScanning dependencies of target generate_chart[0m
+[35m[1mScanning dependencies of target generate_chart_nav_graphs[0m
+[35m[1mScanning dependencies of target generate_chart_ign[0m
+[ 33%] [34m[1mGenerating maps/chart/chart.world[0m
+[ 66%] [34m[1mGenerating maps/chart/nav_graphs/phony[0m
+[100%] [34m[1mGenerating maps/chart_ign/chart.world[0m
+generating /home/rmf-tester/ncs_ws/build/chart_maps/maps/chart/chart.world from /home/rmf-tester/ncs_ws/src/chart/chart_maps/maps/chart.building.yaml
+generating /home/rmf-tester/ncs_ws/build/chart_maps/maps/chart_ign/chart.world from /home/rmf-tester/ncs_ws/src/chart/chart_maps/maps/chart.building.yaml
+building name: building
+parsing level B1
+calculating levels relative to B1
+level B1 scale: 0.012719561567487794
+parsing lift LF001
+generating nav data
+hooray, we found an intersection: t=0.406, u=0.526
+  (976.369,-1221.5),(779.71,-1224.27) and (896.512,-1141.76),(896.512,-1295.616)
+found intersection with door chart_cssd_door!
+hooray, we found an intersection: t=0.66, u=0.463
+  (1410.695,-1702.449),(1760.108,-1699.524) and (1641.522,-1750.85),(1641.28,-1642.24)
+found intersection with door LF001!
+writing /home/rmf-tester/ncs_ws/build/chart_maps/maps/chart/nav_graphs/0.yaml
+building name: building
+parsing level B1
+calculating levels relative to B1
+level B1 scale: 0.012719561567487794
+parsing lift LF001
+generating model of level B1 in /home/rmf-tester/ncs_ws/build/chart_maps/maps/chart/models/building_B1
+  wrote /home/rmf-tester/ncs_ws/build/chart_maps/maps/chart/models/building_B1/model.config
+generating floor polygon 1 on floor building_B1
+hole vertices: []
+lift vertices: {}
+[[5, 2, 0], [2, 1, 0], [2, 4, 3], [4, 2, 5]]
+  wrote /home/rmf-tester/ncs_ws/build/chart_maps/maps/chart/models/building_B1/meshes/floor_1.obj
+  wrote /home/rmf-tester/ncs_ws/build/chart_maps/maps/chart/models/building_B1/meshes/floor_1.mtl
+  wrote /home/rmf-tester/ncs_ws/build/chart_maps/maps/chart/models/building_B1/meshes/floor_1.png
+building name: building
+parsing level B1
+Walls Generation, wall params list: [['default', 1]]
+generating wall: 1 on floor: building_B1
+generate_wall_visual_mesh(building_B1, /home/rmf-tester/ncs_ws/build/chart_maps/maps/chart/models/building_B1)
+  generating /home/rmf-tester/ncs_ws/build/chart_maps/maps/chart/models/building_B1/meshes/wall_1.obj
+calculating levels relative to B1
+level B1 scale: 0.012719561567487794
+parsing lift LF001
+generating model of level B1 in /home/rmf-tester/ncs_ws/build/chart_maps/maps/chart_ign/models/building_B1
+  wrote /home/rmf-tester/ncs_ws/build/chart_maps/maps/chart_ign/models/building_B1/model.config
+generating floor polygon 1 on floor building_B1
+hole vertices: []
+lift vertices: {}
+[[5, 2, 0], [2, 1, 0], [2, 4, 3], [4, 2, 5]]
+  generating /home/rmf-tester/ncs_ws/build/chart_maps/maps/chart/models/building_B1/meshes/wall_1.mtl
+  copying wall textures into /home/rmf-tester/ncs_ws/build/chart_maps/maps/chart/models/building_B1/meshes
+  wrote /home/rmf-tester/ncs_ws/build/chart_maps/maps/chart_ign/models/building_B1/meshes/floor_1.obj
+  wrote /home/rmf-tester/ncs_ws/build/chart_maps/maps/chart_ign/models/building_B1/meshes/floor_1.mtl
+  wrote /home/rmf-tester/ncs_ws/build/chart_maps/maps/chart_ign/models/building_B1/meshes/floor_1.png
+Walls Generation, wall params list: [['default', 1]]
+generating wall: 1 on floor: building_B1
+generate_wall_visual_mesh(building_B1, /home/rmf-tester/ncs_ws/build/chart_maps/maps/chart_ign/models/building_B1)
+  generating /home/rmf-tester/ncs_ws/build/chart_maps/maps/chart_ign/models/building_B1/meshes/wall_1.obj
+  wrote /home/rmf-tester/ncs_ws/build/chart_maps/maps/chart/models/building_B1/model.sdf
+generator options: ['gazebo']
+spawning robot name mir100 of type MiR100
+generate door name=LF001 type=double_sliding
+Door(LF001)
+generate door name=chart_cssd_door type=double_hinged
+Door(chart_cssd_door)
+[LF001] is not serving any floor, ignoring.
+7188 bytes written to /home/rmf-tester/ncs_ws/build/chart_maps/maps/chart/chart.world
+  generating /home/rmf-tester/ncs_ws/build/chart_maps/maps/chart_ign/models/building_B1/meshes/wall_1.mtl
+  copying wall textures into /home/rmf-tester/ncs_ws/build/chart_maps/maps/chart_ign/models/building_B1/meshes
+  wrote /home/rmf-tester/ncs_ws/build/chart_maps/maps/chart_ign/models/building_B1/model.sdf
+generator options: ['ignition']
+spawning robot name mir100 of type MiR100
+generate door name=LF001 type=double_sliding
+Door(LF001)
+generate door name=chart_cssd_door type=double_hinged
+Door(chart_cssd_door)
+[LF001] is not serving any floor, ignoring.
+10633 bytes written to /home/rmf-tester/ncs_ws/build/chart_maps/maps/chart_ign/chart.world
+[100%] Built target generate_chart_nav_graphs
+[100%] Built target generate_chart_ign
+building name: building
+parsing level B1
+calculating levels relative to B1
+level B1 scale: 0.012719561567487794
+parsing lift LF001
+Load success!
+
+Cache found! Model count: 1998 
+Updating cache...
+Topping up Fuel (updating cache) from: https://fuel.ignitionrobotics.org/1.0/models
+Fetching page: 1
+Cached model found! Halting Fuel traversal...
+Writing to cache: /home/rmf-tester/.pit_crew/model_cache.json
+New models cached: 0
+
+
+== REQUESTED MODEL REPORT ==
+{'available': [], 'downloadable': [], 'missing': []}
+
+== THE FOLLOWING MODELS HAVE SPECIFIED AUTHORS ==
+{}
+
+[100%] Built target generate_chart
+-- Install configuration: ""
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/chart.png
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/map_server_params.yaml
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/chart_floor_plan.yaml
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/chart.building.yaml
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/layout.png
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/mir_5cm.png
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/chart.project.yaml
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/ament_index/resource_index/package_run_dependencies/chart_maps
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/ament_index/resource_index/parent_prefix_path/chart_maps
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/environment/ament_prefix_path.sh
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/environment/ament_prefix_path.dsv
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/environment/path.sh
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/environment/path.dsv
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/local_setup.bash
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/local_setup.sh
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/local_setup.zsh
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/local_setup.dsv
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/package.dsv
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/ament_index/resource_index/packages/chart_maps
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/cmake/chart_mapsConfig.cmake
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/cmake/chart_mapsConfig-version.cmake
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/package.xml
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/maps/chart_ign
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/maps/chart_ign/chart.world
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/maps/chart_ign/models
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/maps/chart_ign/models/building_B1
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/maps/chart_ign/models/building_B1/model.config
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/maps/chart_ign/models/building_B1/model.sdf
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/maps/chart_ign/models/building_B1/meshes
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/maps/chart_ign/models/building_B1/meshes/wall_1.obj
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/maps/chart_ign/models/building_B1/meshes/wall_1.mtl
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/maps/chart_ign/models/building_B1/meshes/floor_1.png
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/maps/chart_ign/models/building_B1/meshes/floor_1.obj
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/maps/chart_ign/models/building_B1/meshes/floor_1.mtl
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/maps/chart_ign/models/building_B1/meshes/default.png
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/maps/chart
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/maps/chart/chart.world
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/maps/chart/models
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/maps/chart/models/building_B1
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/maps/chart/models/building_B1/model.config
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/maps/chart/models/building_B1/model.sdf
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/maps/chart/models/building_B1/meshes
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/maps/chart/models/building_B1/meshes/wall_1.obj
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/maps/chart/models/building_B1/meshes/wall_1.mtl
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/maps/chart/models/building_B1/meshes/floor_1.png
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/maps/chart/models/building_B1/meshes/floor_1.obj
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/maps/chart/models/building_B1/meshes/floor_1.mtl
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/maps/chart/models/building_B1/meshes/default.png
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/maps/chart/nav_graphs
+-- Installing: /home/rmf-tester/ncs_ws/install/chart_maps/share/chart_maps/maps/chart/nav_graphs/0.yaml

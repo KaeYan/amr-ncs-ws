@@ -1,0 +1,3 @@
+[console_scripts]
+pub_msg = john_test.pub_rmf_msg:main
+

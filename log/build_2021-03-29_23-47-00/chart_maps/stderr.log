@@ -1,0 +1,2 @@
+BUILDING WORLDFILE WITH COMMAND: ros2 run building_map_tools building_map_generator gazebo /home/rmf-tester/ncs_ws/src/chart/chart_maps/maps/chart.building.yaml /home/rmf-tester/ncs_ws/build/chart_maps/maps/chart/chart.world /home/rmf-tester/ncs_ws/build/chart_maps/maps/chart/models
+DOWNLOADING MODELS WITH COMMAND: ros2 run building_map_tools building_map_model_downloader /home/rmf-tester/ncs_ws/src/chart/chart_maps/maps/chart.building.yaml

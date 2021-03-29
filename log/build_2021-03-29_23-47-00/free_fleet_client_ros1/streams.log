@@ -1,0 +1,28 @@
+[0.025s] Invoking command in '/home/rmf-tester/ncs_ws/build/free_fleet_client_ros1': CMAKE_PREFIX_PATH=/home/rmf-tester/ncs_ws/install/free_fleet:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/rmf-tester/ncs_ws/install/free_fleet/lib:${LD_LIBRARY_PATH} PATH=/home/rmf-tester/ncs_ws/install/free_fleet/bin:${PATH} PKG_CONFIG_PATH=/home/rmf-tester/ncs_ws/install/free_fleet/lib/x86_64-linux-gnu/pkgconfig:/home/rmf-tester/ncs_ws/install/free_fleet/lib/pkgconfig:${PKG_CONFIG_PATH} /usr/bin/cmake /home/rmf-tester/ncs_ws/src/free_fleet/free_fleet_client_ros1 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/rmf-tester/ncs_ws/install/free_fleet_client_ros1
+[0.078s] -- The C compiler identification is GNU 9.3.0
+[0.136s] -- The CXX compiler identification is GNU 9.3.0
+[0.143s] -- Check for working C compiler: /usr/bin/cc
+[0.217s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.218s] -- Detecting C compiler ABI info
+[0.353s] -- Detecting C compiler ABI info - done
+[0.364s] -- Detecting C compile features
+[0.364s] -- Detecting C compile features - done
+[0.367s] -- Check for working CXX compiler: /usr/bin/c++
+[0.449s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.450s] -- Detecting CXX compiler ABI info
+[0.534s] -- Detecting CXX compiler ABI info - done
+[0.545s] -- Detecting CXX compile features
+[0.546s] -- Detecting CXX compile features - done
+[0.559s] catkin not found so skipping this ROS1 package
+[0.560s] -- Configuring done
+[0.560s] -- Generating done
+[0.561s] CMake Warning:
+[0.561s]   Manually-specified variables were not used by the project:
+[0.561s] 
+[0.561s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[0.561s] 
+[0.561s] 
+[0.561s] -- Build files have been written to: /home/rmf-tester/ncs_ws/build/free_fleet_client_ros1
+[0.564s] Invoked command in '/home/rmf-tester/ncs_ws/build/free_fleet_client_ros1' returned '0': CMAKE_PREFIX_PATH=/home/rmf-tester/ncs_ws/install/free_fleet:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/rmf-tester/ncs_ws/install/free_fleet/lib:${LD_LIBRARY_PATH} PATH=/home/rmf-tester/ncs_ws/install/free_fleet/bin:${PATH} PKG_CONFIG_PATH=/home/rmf-tester/ncs_ws/install/free_fleet/lib/x86_64-linux-gnu/pkgconfig:/home/rmf-tester/ncs_ws/install/free_fleet/lib/pkgconfig:${PKG_CONFIG_PATH} /usr/bin/cmake /home/rmf-tester/ncs_ws/src/free_fleet/free_fleet_client_ros1 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/rmf-tester/ncs_ws/install/free_fleet_client_ros1
+[0.567s] Invoking command in '/home/rmf-tester/ncs_ws/build/free_fleet_client_ros1': CMAKE_PREFIX_PATH=/home/rmf-tester/ncs_ws/install/free_fleet:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/rmf-tester/ncs_ws/install/free_fleet/lib:${LD_LIBRARY_PATH} PATH=/home/rmf-tester/ncs_ws/install/free_fleet/bin:${PATH} PKG_CONFIG_PATH=/home/rmf-tester/ncs_ws/install/free_fleet/lib/x86_64-linux-gnu/pkgconfig:/home/rmf-tester/ncs_ws/install/free_fleet/lib/pkgconfig:${PKG_CONFIG_PATH} /usr/bin/cmake --build /home/rmf-tester/ncs_ws/build/free_fleet_client_ros1 -- -j12 -l12
+[0.612s] Invoked command in '/home/rmf-tester/ncs_ws/build/free_fleet_client_ros1' returned '0': CMAKE_PREFIX_PATH=/home/rmf-tester/ncs_ws/install/free_fleet:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/rmf-tester/ncs_ws/install/free_fleet/lib:${LD_LIBRARY_PATH} PATH=/home/rmf-tester/ncs_ws/install/free_fleet/bin:${PATH} PKG_CONFIG_PATH=/home/rmf-tester/ncs_ws/install/free_fleet/lib/x86_64-linux-gnu/pkgconfig:/home/rmf-tester/ncs_ws/install/free_fleet/lib/pkgconfig:${PKG_CONFIG_PATH} /usr/bin/cmake --build /home/rmf-tester/ncs_ws/build/free_fleet_client_ros1 -- -j12 -l12

@@ -1,0 +1,4 @@
+source;share/ff_examples_ros2/local_setup.bash
+source;share/ff_examples_ros2/local_setup.dsv
+source;share/ff_examples_ros2/local_setup.sh
+source;share/ff_examples_ros2/local_setup.zsh

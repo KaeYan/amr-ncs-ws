@@ -1,0 +1,40 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rmf-tester/ncs_ws/build/ff_examples_ros2
+-- Install configuration: ""
+-- Installing: /home/rmf-tester/ncs_ws/install/ff_examples_ros2/share/ff_examples_ros2/launch
+-- Installing: /home/rmf-tester/ncs_ws/install/ff_examples_ros2/share/ff_examples_ros2/launch/fake_server.launch.xml
+-- Installing: /home/rmf-tester/ncs_ws/install/ff_examples_ros2/lib/ff_examples_ros2/send_destination_request.py
+-- Installing: /home/rmf-tester/ncs_ws/install/ff_examples_ros2/lib/ff_examples_ros2/send_path_request.py
+-- Installing: /home/rmf-tester/ncs_ws/install/ff_examples_ros2/lib/ff_examples_ros2/send_mode_request.py
+-- Installing: /home/rmf-tester/ncs_ws/install/ff_examples_ros2/share/ament_index/resource_index/package_run_dependencies/ff_examples_ros2
+-- Installing: /home/rmf-tester/ncs_ws/install/ff_examples_ros2/share/ament_index/resource_index/parent_prefix_path/ff_examples_ros2
+-- Installing: /home/rmf-tester/ncs_ws/install/ff_examples_ros2/share/ff_examples_ros2/environment/ament_prefix_path.sh
+-- Installing: /home/rmf-tester/ncs_ws/install/ff_examples_ros2/share/ff_examples_ros2/environment/ament_prefix_path.dsv
+-- Installing: /home/rmf-tester/ncs_ws/install/ff_examples_ros2/share/ff_examples_ros2/environment/path.sh
+-- Installing: /home/rmf-tester/ncs_ws/install/ff_examples_ros2/share/ff_examples_ros2/environment/path.dsv
+-- Installing: /home/rmf-tester/ncs_ws/install/ff_examples_ros2/share/ff_examples_ros2/local_setup.bash
+-- Installing: /home/rmf-tester/ncs_ws/install/ff_examples_ros2/share/ff_examples_ros2/local_setup.sh
+-- Installing: /home/rmf-tester/ncs_ws/install/ff_examples_ros2/share/ff_examples_ros2/local_setup.zsh
+-- Installing: /home/rmf-tester/ncs_ws/install/ff_examples_ros2/share/ff_examples_ros2/local_setup.dsv
+-- Installing: /home/rmf-tester/ncs_ws/install/ff_examples_ros2/share/ff_examples_ros2/package.dsv
+-- Installing: /home/rmf-tester/ncs_ws/install/ff_examples_ros2/share/ament_index/resource_index/packages/ff_examples_ros2
+-- Installing: /home/rmf-tester/ncs_ws/install/ff_examples_ros2/share/ff_examples_ros2/cmake/ff_examples_ros2Config.cmake
+-- Installing: /home/rmf-tester/ncs_ws/install/ff_examples_ros2/share/ff_examples_ros2/cmake/ff_examples_ros2Config-version.cmake
+-- Installing: /home/rmf-tester/ncs_ws/install/ff_examples_ros2/share/ff_examples_ros2/package.xml

@@ -1,0 +1,15 @@
+source;share/free_fleet/hook/cmake_prefix_path.ps1
+source;share/free_fleet/hook/cmake_prefix_path.dsv
+source;share/free_fleet/hook/cmake_prefix_path.sh
+source;share/free_fleet/hook/ld_library_path_lib.ps1
+source;share/free_fleet/hook/ld_library_path_lib.dsv
+source;share/free_fleet/hook/ld_library_path_lib.sh
+source;share/free_fleet/hook/path.ps1
+source;share/free_fleet/hook/path.dsv
+source;share/free_fleet/hook/path.sh
+source;share/free_fleet/hook/pkg_config_path.ps1
+source;share/free_fleet/hook/pkg_config_path.dsv
+source;share/free_fleet/hook/pkg_config_path.sh
+source;share/free_fleet/hook/pkg_config_path_multiarch.ps1
+source;share/free_fleet/hook/pkg_config_path_multiarch.dsv
+source;share/free_fleet/hook/pkg_config_path_multiarch.sh

@@ -1,0 +1,33 @@
+#Test steps check list:
+1. Workstation 1  to Development Network
+   Workstation 2  to Production Network (final demo will be used)
+
+2. create workspace
+    see deomo.sh 
+3. setup for AMR MiR100
+    3.1 see deomo.sh
+    3.2 To control the MiR100, use the provided tablet and connect into the Wifi SSID "MIR_1442", go to the browser and enter "mir.com".
+    We will provide the credentials. 
+3. Waypoints and trafic edit
+   # source path to run 
+   . /opt/ros/foxy/setup.bash
+   . ~/rmf_demos_ws/install/setup.bash
+   . ~/ncs_ws/install/setup.bash
+   # For Traffic Editor
+    traffic-editor ~/ncs_ws/src/chart/chart_maps/maps/chart.project.yaml
+
+    # For Gazebo Simulation
+    ros2 launch chart_launch scenario_sim.launch.xml
+    # For Production Networks
+    ros2 launch chart_launch scenario_hardware.launch.xml
+4. Compute Map Transform
+   setup the 4 defined waypoins(rviz) and the corresponding points in navigation to init the Nudged Transformer
+5. Functionality Tests
+    test  test_door_request.py test_loop_request.py, test_lift_request.py in command line: 
+    . /opt/ros/foxy/setup.bash
+    . ~/rmf_demos_ws/install/setup.bash
+    . ~/ncs_ws/install/setup.bash
+    ros2 launch chart_launch scenario_sim.launch.xml or ros2 launch chart_launch scenario_hardware.launch.xml 
+    python3 PATH_TO_test_[test_name].py
+6. Deconflict test with the AMRs, commmanded by above setup workspace
+

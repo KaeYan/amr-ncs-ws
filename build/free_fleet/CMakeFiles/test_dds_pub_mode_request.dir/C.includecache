@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rmf-tester/ncs_ws/src/free_fleet/free_fleet/src/messages/FleetMessages.c
+FleetMessages.h
+/home/rmf-tester/ncs_ws/src/free_fleet/free_fleet/src/messages/FleetMessages.h
+
+/home/rmf-tester/ncs_ws/src/free_fleet/free_fleet/src/messages/FleetMessages.h
+dds/ddsc/dds_public_impl.h
+/home/rmf-tester/ncs_ws/src/free_fleet/free_fleet/src/messages/dds/ddsc/dds_public_impl.h
+
+/opt/ros/foxy/include/dds/ddsc/dds_public_alloc.h
+stddef.h
+-
+dds/export.h
+/opt/ros/foxy/include/dds/ddsc/dds/export.h
+
+/opt/ros/foxy/include/dds/ddsc/dds_public_impl.h
+stdint.h
+-
+stdbool.h
+-
+dds/export.h
+/opt/ros/foxy/include/dds/ddsc/dds/export.h
+dds/ddsc/dds_public_alloc.h
+/opt/ros/foxy/include/dds/ddsc/dds/ddsc/dds_public_alloc.h
+
+/opt/ros/foxy/include/dds/export.h
+

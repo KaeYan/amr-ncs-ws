@@ -1,0 +1,43 @@
+[0.793s] Invoking command in '/home/rmf-tester/ncs_ws/src/john_test': PYTHONPATH=/home/rmf-tester/ncs_ws/install/john_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/john_test build --build-base /home/rmf-tester/ncs_ws/build/john_test/build install --prefix /home/rmf-tester/ncs_ws/install/john_test --record /home/rmf-tester/ncs_ws/build/john_test/install.log --single-version-externally-managed
+[1.254s] running egg_info
+[1.255s] creating ../../build/john_test/john_test.egg-info
+[1.256s] writing ../../build/john_test/john_test.egg-info/PKG-INFO
+[1.256s] writing dependency_links to ../../build/john_test/john_test.egg-info/dependency_links.txt
+[1.257s] writing entry points to ../../build/john_test/john_test.egg-info/entry_points.txt
+[1.257s] writing requirements to ../../build/john_test/john_test.egg-info/requires.txt
+[1.257s] writing top-level names to ../../build/john_test/john_test.egg-info/top_level.txt
+[1.260s] writing manifest file '../../build/john_test/john_test.egg-info/SOURCES.txt'
+[1.365s] reading manifest file '../../build/john_test/john_test.egg-info/SOURCES.txt'
+[1.366s] writing manifest file '../../build/john_test/john_test.egg-info/SOURCES.txt'
+[1.366s] running build
+[1.366s] running build_py
+[1.366s] creating /home/rmf-tester/ncs_ws/build/john_test/build
+[1.367s] creating /home/rmf-tester/ncs_ws/build/john_test/build/lib
+[1.367s] creating /home/rmf-tester/ncs_ws/build/john_test/build/lib/john_test
+[1.367s] copying john_test/__init__.py -> /home/rmf-tester/ncs_ws/build/john_test/build/lib/john_test
+[1.367s] copying john_test/pub_rmf_msg.py -> /home/rmf-tester/ncs_ws/build/john_test/build/lib/john_test
+[1.367s] copying john_test/map_coversion.py -> /home/rmf-tester/ncs_ws/build/john_test/build/lib/john_test
+[1.367s] copying john_test/sub_rmf_msg.py -> /home/rmf-tester/ncs_ws/build/john_test/build/lib/john_test
+[1.367s] running install
+[1.369s] running install_lib
+[1.406s] creating /home/rmf-tester/ncs_ws/install/john_test/lib/python3.8/site-packages/john_test
+[1.406s] copying /home/rmf-tester/ncs_ws/build/john_test/build/lib/john_test/__init__.py -> /home/rmf-tester/ncs_ws/install/john_test/lib/python3.8/site-packages/john_test
+[1.407s] copying /home/rmf-tester/ncs_ws/build/john_test/build/lib/john_test/pub_rmf_msg.py -> /home/rmf-tester/ncs_ws/install/john_test/lib/python3.8/site-packages/john_test
+[1.407s] copying /home/rmf-tester/ncs_ws/build/john_test/build/lib/john_test/map_coversion.py -> /home/rmf-tester/ncs_ws/install/john_test/lib/python3.8/site-packages/john_test
+[1.407s] copying /home/rmf-tester/ncs_ws/build/john_test/build/lib/john_test/sub_rmf_msg.py -> /home/rmf-tester/ncs_ws/install/john_test/lib/python3.8/site-packages/john_test
+[1.411s] byte-compiling /home/rmf-tester/ncs_ws/install/john_test/lib/python3.8/site-packages/john_test/__init__.py to __init__.cpython-38.pyc
+[1.413s] byte-compiling /home/rmf-tester/ncs_ws/install/john_test/lib/python3.8/site-packages/john_test/pub_rmf_msg.py to pub_rmf_msg.cpython-38.pyc
+[1.420s] byte-compiling /home/rmf-tester/ncs_ws/install/john_test/lib/python3.8/site-packages/john_test/map_coversion.py to map_coversion.cpython-38.pyc
+[1.425s] byte-compiling /home/rmf-tester/ncs_ws/install/john_test/lib/python3.8/site-packages/john_test/sub_rmf_msg.py to sub_rmf_msg.cpython-38.pyc
+[1.439s] running install_data
+[1.440s] creating /home/rmf-tester/ncs_ws/install/john_test/share/ament_index
+[1.441s] creating /home/rmf-tester/ncs_ws/install/john_test/share/ament_index/resource_index
+[1.441s] creating /home/rmf-tester/ncs_ws/install/john_test/share/ament_index/resource_index/packages
+[1.441s] copying resource/john_test -> /home/rmf-tester/ncs_ws/install/john_test/share/ament_index/resource_index/packages
+[1.442s] copying package.xml -> /home/rmf-tester/ncs_ws/install/john_test/share/john_test
+[1.442s] running install_egg_info
+[1.446s] Copying ../../build/john_test/john_test.egg-info to /home/rmf-tester/ncs_ws/install/john_test/lib/python3.8/site-packages/john_test-0.0.0-py3.8.egg-info
+[1.447s] running install_scripts
+[1.480s] Installing pub_msg script to /home/rmf-tester/ncs_ws/install/john_test/lib/john_test
+[1.481s] writing list of installed files to '/home/rmf-tester/ncs_ws/build/john_test/install.log'
+[1.574s] Invoked command in '/home/rmf-tester/ncs_ws/src/john_test' returned '0': PYTHONPATH=/home/rmf-tester/ncs_ws/install/john_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/john_test build --build-base /home/rmf-tester/ncs_ws/build/john_test/build install --prefix /home/rmf-tester/ncs_ws/install/john_test --record /home/rmf-tester/ncs_ws/build/john_test/install.log --single-version-externally-managed

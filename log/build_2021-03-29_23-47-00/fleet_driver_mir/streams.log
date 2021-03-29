@@ -1,0 +1,48 @@
+[0.797s] Invoking command in '/home/rmf-tester/ncs_ws/src/fleet_driver_mir': PYTHONPATH=/home/rmf-tester/ncs_ws/install/fleet_driver_mir/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/fleet_driver_mir build --build-base /home/rmf-tester/ncs_ws/build/fleet_driver_mir/build install --prefix /home/rmf-tester/ncs_ws/install/fleet_driver_mir --record /home/rmf-tester/ncs_ws/build/fleet_driver_mir/install.log --single-version-externally-managed
+[1.213s] running egg_info
+[1.214s] creating ../../build/fleet_driver_mir/fleet_driver_mir.egg-info
+[1.214s] writing ../../build/fleet_driver_mir/fleet_driver_mir.egg-info/PKG-INFO
+[1.215s] writing dependency_links to ../../build/fleet_driver_mir/fleet_driver_mir.egg-info/dependency_links.txt
+[1.215s] writing entry points to ../../build/fleet_driver_mir/fleet_driver_mir.egg-info/entry_points.txt
+[1.215s] writing requirements to ../../build/fleet_driver_mir/fleet_driver_mir.egg-info/requires.txt
+[1.215s] writing top-level names to ../../build/fleet_driver_mir/fleet_driver_mir.egg-info/top_level.txt
+[1.218s] writing manifest file '../../build/fleet_driver_mir/fleet_driver_mir.egg-info/SOURCES.txt'
+[1.277s] reading manifest file '../../build/fleet_driver_mir/fleet_driver_mir.egg-info/SOURCES.txt'
+[1.282s] writing manifest file '../../build/fleet_driver_mir/fleet_driver_mir.egg-info/SOURCES.txt'
+[1.282s] running build
+[1.282s] running build_py
+[1.282s] creating /home/rmf-tester/ncs_ws/build/fleet_driver_mir/build
+[1.282s] creating /home/rmf-tester/ncs_ws/build/fleet_driver_mir/build/lib
+[1.283s] creating /home/rmf-tester/ncs_ws/build/fleet_driver_mir/build/lib/fleet_driver_mir
+[1.283s] copying fleet_driver_mir/__init__.py -> /home/rmf-tester/ncs_ws/build/fleet_driver_mir/build/lib/fleet_driver_mir
+[1.283s] copying fleet_driver_mir/jsontocsv.py -> /home/rmf-tester/ncs_ws/build/fleet_driver_mir/build/lib/fleet_driver_mir
+[1.284s] copying fleet_driver_mir/report_positions_in_rmf_coord.py -> /home/rmf-tester/ncs_ws/build/fleet_driver_mir/build/lib/fleet_driver_mir
+[1.284s] copying fleet_driver_mir/remove_move_coordinate.py -> /home/rmf-tester/ncs_ws/build/fleet_driver_mir/build/lib/fleet_driver_mir
+[1.284s] copying fleet_driver_mir/fleet_driver_mir.py -> /home/rmf-tester/ncs_ws/build/fleet_driver_mir/build/lib/fleet_driver_mir
+[1.284s] running install
+[1.284s] running install_lib
+[1.285s] creating /home/rmf-tester/ncs_ws/install/fleet_driver_mir/lib/python3.8/site-packages/fleet_driver_mir
+[1.285s] copying /home/rmf-tester/ncs_ws/build/fleet_driver_mir/build/lib/fleet_driver_mir/__init__.py -> /home/rmf-tester/ncs_ws/install/fleet_driver_mir/lib/python3.8/site-packages/fleet_driver_mir
+[1.285s] copying /home/rmf-tester/ncs_ws/build/fleet_driver_mir/build/lib/fleet_driver_mir/jsontocsv.py -> /home/rmf-tester/ncs_ws/install/fleet_driver_mir/lib/python3.8/site-packages/fleet_driver_mir
+[1.285s] copying /home/rmf-tester/ncs_ws/build/fleet_driver_mir/build/lib/fleet_driver_mir/report_positions_in_rmf_coord.py -> /home/rmf-tester/ncs_ws/install/fleet_driver_mir/lib/python3.8/site-packages/fleet_driver_mir
+[1.285s] copying /home/rmf-tester/ncs_ws/build/fleet_driver_mir/build/lib/fleet_driver_mir/remove_move_coordinate.py -> /home/rmf-tester/ncs_ws/install/fleet_driver_mir/lib/python3.8/site-packages/fleet_driver_mir
+[1.285s] copying /home/rmf-tester/ncs_ws/build/fleet_driver_mir/build/lib/fleet_driver_mir/fleet_driver_mir.py -> /home/rmf-tester/ncs_ws/install/fleet_driver_mir/lib/python3.8/site-packages/fleet_driver_mir
+[1.286s] byte-compiling /home/rmf-tester/ncs_ws/install/fleet_driver_mir/lib/python3.8/site-packages/fleet_driver_mir/__init__.py to __init__.cpython-38.pyc
+[1.288s] byte-compiling /home/rmf-tester/ncs_ws/install/fleet_driver_mir/lib/python3.8/site-packages/fleet_driver_mir/jsontocsv.py to jsontocsv.cpython-38.pyc
+[1.289s] byte-compiling /home/rmf-tester/ncs_ws/install/fleet_driver_mir/lib/python3.8/site-packages/fleet_driver_mir/report_positions_in_rmf_coord.py to report_positions_in_rmf_coord.cpython-38.pyc
+[1.303s] byte-compiling /home/rmf-tester/ncs_ws/install/fleet_driver_mir/lib/python3.8/site-packages/fleet_driver_mir/remove_move_coordinate.py to remove_move_coordinate.cpython-38.pyc
+[1.303s] byte-compiling /home/rmf-tester/ncs_ws/install/fleet_driver_mir/lib/python3.8/site-packages/fleet_driver_mir/fleet_driver_mir.py to fleet_driver_mir.cpython-38.pyc
+[1.305s] running install_data
+[1.306s] creating /home/rmf-tester/ncs_ws/install/fleet_driver_mir/share/ament_index
+[1.310s] creating /home/rmf-tester/ncs_ws/install/fleet_driver_mir/share/ament_index/resource_index
+[1.310s] creating /home/rmf-tester/ncs_ws/install/fleet_driver_mir/share/ament_index/resource_index/packages
+[1.310s] copying resource/fleet_driver_mir -> /home/rmf-tester/ncs_ws/install/fleet_driver_mir/share/ament_index/resource_index/packages
+[1.310s] copying package.xml -> /home/rmf-tester/ncs_ws/install/fleet_driver_mir/share/fleet_driver_mir
+[1.311s] running install_egg_info
+[1.311s] Copying ../../build/fleet_driver_mir/fleet_driver_mir.egg-info to /home/rmf-tester/ncs_ws/install/fleet_driver_mir/lib/python3.8/site-packages/fleet_driver_mir-0.0.0-py3.8.egg-info
+[1.314s] running install_scripts
+[1.349s] Installing fleet_driver_mir script to /home/rmf-tester/ncs_ws/install/fleet_driver_mir/lib/fleet_driver_mir
+[1.349s] Installing mir_position_converter script to /home/rmf-tester/ncs_ws/install/fleet_driver_mir/lib/fleet_driver_mir
+[1.349s] Installing remove_mc script to /home/rmf-tester/ncs_ws/install/fleet_driver_mir/lib/fleet_driver_mir
+[1.350s] writing list of installed files to '/home/rmf-tester/ncs_ws/build/fleet_driver_mir/install.log'
+[1.403s] Invoked command in '/home/rmf-tester/ncs_ws/src/fleet_driver_mir' returned '0': PYTHONPATH=/home/rmf-tester/ncs_ws/install/fleet_driver_mir/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/fleet_driver_mir build --build-base /home/rmf-tester/ncs_ws/build/fleet_driver_mir/build install --prefix /home/rmf-tester/ncs_ws/install/fleet_driver_mir --record /home/rmf-tester/ncs_ws/build/fleet_driver_mir/install.log --single-version-externally-managed
