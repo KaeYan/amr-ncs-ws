@@ -14,5 +14,10 @@
   <include file="$(find-pkg-share chart_launch)/include/mir100_adapter.launch.xml">
     <arg name="use_sim_time" value="false"/>
   </include>
+  
+  <!--momentum fleet adapter -->
+  <include file="$(find-pkg-share chart_launch)/include/momentum_adapter.launch.xml">
+    <arg name="use_sim_time" value="false"/>
+  </include>
 
 </launch>

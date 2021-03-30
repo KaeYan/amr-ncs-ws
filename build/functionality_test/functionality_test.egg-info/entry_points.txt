@@ -1,6 +1,0 @@
-[console_scripts]
-talker = functionality_test.publisher_member_function:main
-test_door_request = functionality_test.test_door_request:main
-test_lift_request = functionality_test.test_lift_request:main
-test_loop_request = functionality_test.test_loop_request:main
-

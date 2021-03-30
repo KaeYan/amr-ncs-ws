@@ -1,4 +1,0 @@
-<?xml version='1.0' ?>
-<launch>
-  <executable cmd="traffic-editor $(find-pkg-share chart_maps)/chart.project.yaml" output="both"/>
-</launch>

@@ -1,8 +1,8 @@
 levels:
-  B1:
+  L1:
     doors:
-      - [34, 65, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, LF001], type: [1, double_sliding]}]
-      - [11, 10, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, chart_cssd_door], type: [1, double_hinged]}]
+      - [34, 65, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, LF001], plugin: [1, normal], type: [1, double_sliding]}]
+      - [11, 10, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, chart_cssd_door], plugin: [1, normal], type: [1, double_hinged]}]
     drawing:
       filename: chart.png
     elevation: 0
@@ -18,14 +18,17 @@ levels:
       - [71, 73, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], orientation: [1, ""]}]
       - [69, 101, {bidirectional: [4, true], demo_mock_floor_name: [1, L3], demo_mock_lift_name: [1, LF001], graph_idx: [2, 0], orientation: [1, ""]}]
       - [70, 87, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], orientation: [1, ""]}]
-      - [87, 69, {bidirectional: [4, true], demo_mock_floor_name: [1, B1], demo_mock_lift_name: [1, LF001], graph_idx: [2, 0], orientation: [1, ""]}]
+      - [87, 69, {bidirectional: [4, true], demo_mock_floor_name: [1, L1], demo_mock_lift_name: [1, LF001], graph_idx: [2, 0], orientation: [1, ""]}]
       - [102, 69, {bidirectional: [4, true], demo_mock_floor_name: [1, L3], demo_mock_lift_name: [1, LF001], graph_idx: [2, 0], orientation: [1, ""]}]
       - [106, 87, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], orientation: [1, ""]}]
       - [106, 105, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], orientation: [1, ""]}]
       - [105, 104, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], orientation: [1, ""]}]
       - [103, 105, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], orientation: [1, ""]}]
+      - [104, 107, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], orientation: [1, ""]}]
+      - [107, 108, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], orientation: [1, ""]}]
+      - [103, 109, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], orientation: [1, ""]}]
     layers:
-      mir: {filename: mir_5cm.png, meters_per_pixel: 0.05, rotation: 3.15, translation_x: -34.3, translation_y: 3.8, visible: false}
+      mir: {filename: mir_5cm.png, meters_per_pixel: 0.05, rotation: 3.15, translation_x: -34.3, translation_y: 3.8, visible: true}
       momentum: {filename: layout.png, meters_per_pixel: 0.05, rotation: 0, translation_x: 0, translation_y: 33, visible: false}
     measurements:
       - [1, 0, {distance: [3, 8.4]}]
@@ -99,11 +102,11 @@ levels:
       - [2140.437, 1353.137, 0, ""]
       - [2140.437, 1319.374, 0, ""]
       - [2131.039, 1176.1, 0, ""]
-      - [1760.108, 1699.524, 0, lift_exit]
-      - [1409.983, 1585.387, 0, before_lift, {is_parking_spot: [4, true]}]
-      - [976.369, 1221.5, 0, cssd_enter, {is_parking_spot: [4, true]}]
-      - [1416.13, 1219.975, 0, mir_start, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, mir100], spawn_robot_type: [1, MiR100]}]
-      - [779.71, 1224.27, 0, cssd, {dock_name: [1, ""], is_parking_spot: [4, false]}]
+      - [1765.698, 1699.411, 0, lift_exit]
+      - [1385.809, 1540.67, 0, before_lift, {is_parking_spot: [4, true]}]
+      - [976.369, 1221.5, 0, CSSD_entrance, {is_parking_spot: [4, true]}]
+      - [1385.809, 1223.006, 0, mir_start, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, mir100], spawn_robot_type: [1, MiR100]}]
+      - [779.71, 1224.27, 0, CSSD, {dock_name: [1, ""], is_parking_spot: [4, false]}]
       - [975.725, 1330.983, 0, ""]
       - [975.492, 1397.016, 0, ""]
       - [975.877, 1990.623, 0, ""]
@@ -117,7 +120,7 @@ levels:
       - [2300.903, 1991.14, 0, ""]
       - [2359.639, 2054.496, 0, "", {is_charger: [4, false], is_parking_spot: [4, false]}]
       - [1698.942, 1336.047, 0, ""]
-      - [1410.695, 1702.449, 0, lift_enter]
+      - [1387.133, 1686.266, 0, lift_enter]
       - [1699.02, 1394.536, 0, ""]
       - [1642.01, 1395.34, 0, ""]
       - [1641.763, 1989.956, 0, ""]
@@ -130,13 +133,16 @@ levels:
       - [1971.057, 2161.951, 0, ""]
       - [2050.543, 1744.933, 0, ""]
       - [1983.289, 1745.231, 0, ""]
-      - [1282.314, 1220.656, 0, front_door]
-      - [1760.664, 1794.574, 0, ot, {is_parking_spot: [4, true]}]
+      - [1159.474, 1224.33, 0, front_door]
+      - [1768.266, 1754.617, 0, ot, {is_parking_spot: [4, true]}]
       - [2221.414, 1684.256, 0, AMR2_start, {is_parking_spot: [4, true]}]
-      - [1166.84, 1874.937, 0, AMR2_parking, {is_parking_spot: [4, true]}]
-      - [1030.854, 1794.63, 0, ward_entrance, {is_parking_spot: [4, true]}]
-      - [1167.911, 1795.701, 0, pre_parking, {is_parking_spot: [4, true]}]
-      - [1407.761, 1793.56, 0, "", {is_parking_spot: [4, true]}]
+      - [1189.134, 1591.135, 0, AMR2_parking, {is_parking_spot: [4, true]}]
+      - [1001.612, 1780.725, 0, ward_entrance, {is_parking_spot: [4, true]}]
+      - [1188.444, 1780.035, 0, pre_parking, {is_parking_spot: [4, true]}]
+      - [1356.69, 1778.918, 0, "", {is_parking_spot: [4, true]}]
+      - [1000.233, 1889.653, 0, ""]
+      - [637.188, 1885.57, 0, ward]
+      - [1009.196, 1593.203, 0, park_work_station]
     walls:
       - [32, 56, {alpha: [3, 1], texture_name: [1, default]}]
       - [53, 52, {alpha: [3, 1], texture_name: [1, default]}]
@@ -245,11 +251,12 @@ lifts:
     doors:
       {}
     highest_floor: ""
-    initial_floor_name: B1
+    initial_floor_name: L1
     level_doors:
       {}
     lowest_floor: ""
-    reference_floor_name: B1
+    plugins: true
+    reference_floor_name: L1
     width: 2
     x: 1759
     y: 1698
